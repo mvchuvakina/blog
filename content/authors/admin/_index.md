@@ -44,13 +44,13 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 60
         icon: python
         icon_pack: fab
-      - name: Data Science
+      - name: Mental Arithmetic
         description: ''
         percent: 100
-        icon: chart-line
+        icon: calculator
         icon_pack: fas
       - name: SQL
         description: ''
@@ -61,21 +61,17 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: English
         description: ''
-        percent: 60
-        icon: person-hiking
+        percent: 90
+        icon: language
         icon_pack: fas
-      - name: Cats
+      - name: Reading
         description: ''
-        percent: 100
-        icon: cat
+        percent: 70
+        icon: book
         icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
+      
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
