@@ -40,14 +40,14 @@ education:
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-  - name: Technical
+  - name: Технические
     items:
       - name: Python
         description: ''
         percent: 60
         icon: python
         icon_pack: fab
-      - name: Mental Arithmetic
+      - name: Ментальная арифметика
         description: ''
         percent: 100
         icon: calculator
@@ -57,16 +57,16 @@ skills:
         percent: 40
         icon: database
         icon_pack: fas
-  - name: Hobbies
+  - name: Хобби
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: English
+      - name: Английский язык
         description: ''
         percent: 90
         icon: language
         icon_pack: fas
-      - name: Reading
+      - name: Чтение книг
         description: ''
         percent: 70
         icon: book

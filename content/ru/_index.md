@@ -39,12 +39,12 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: Биография
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   - block: skills
     content:
-      title: Skills
+      title: Навыки
       text: ''
       # Choose a user to display skills from (a folder name within `content/authors/`)
       username: admin
@@ -52,7 +52,7 @@ sections:
       columns: '1'
   - block: experience
     content:
-      title: Experience
+      title: Опыт
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -76,7 +76,7 @@ sections:
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: Достижения
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -102,7 +102,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Recent Posts
+      title: Недавние посты
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
@@ -129,7 +129,7 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: Projects
+      title: Проекты
       filters:
         folders:
           - project
@@ -155,7 +155,7 @@ sections:
       flip_alt_rows: false
   - block: markdown
     content:
-      title: Gallery
+      title: Галерея
       subtitle: ''
       text: |-
         {{< gallery album="demo" >}}
@@ -164,7 +164,7 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Featured Publications
+      title: Последние публикации
       filters:
         folders:
           - publication
@@ -174,7 +174,7 @@ sections:
       view: card
   - block: collection
     content:
-      title: Recent Publications
+      title: Недавние публикации
       text: |-
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
@@ -189,7 +189,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Недавние и предстоящие переговоры
       filters:
         folders:
           - event
@@ -198,20 +198,18 @@ sections:
       view: compact
   - block: tag_cloud
     content:
-      title: Popular Topics
+      title: Популярные темы
     design:
       columns: '2'
   - block: contact
     id: contact
     content:
-      title: Contact
+      title: Контакты
       subtitle:
       text: |-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: 1132236055@rudn.ru
       address:
         street: 450 Serra Mall
         city: Stanford
